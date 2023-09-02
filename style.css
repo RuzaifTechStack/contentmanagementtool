@@ -2,15 +2,15 @@ body {
   font-family: Arial, sans-serif;
   margin: 0px;
   padding-left: 0px;
-  background-image: url('g.png');
+  
 
 }
 
 .container {
-  max-width: 900px;
-  margin: 25px auto;
-  border: 1px solid #ccc;
-  background-color: #fff;
+  max-width: 1500px;
+  margin: 20px auto;
+  border: 1px solid #350000;
+  background-color: #530ed1;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 25px;
   border-radius: 30px;
@@ -19,40 +19,40 @@ body {
 .header {
   text-align: center;
   padding: 10px 0;
-  background-color: #13f125;
-  color: #fff;
+  background-color: #f0a416;
+  color: #000000;
 width:100%;
 }
 
 .header h1 {
   margin: 0;
-  font-size: 35px;
+  font-size: 55px;
 width:100%;
 }
 
 .toolbar {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   margin-bottom: 15px;
 }
 
 .toolbar button {
-  background-color: #1902e9;
-  color: #00ec27;
+  background-color: #f70707;
+  color: #b1f003;
   border: none;
-  padding: 25px 30px;
+  padding: 20px 25px;
   margin: 0 10px;
   cursor: pointer;
   transition: background-color 0.4s;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .toolbar button:hover {
-  background-color: #da0f0f;
+  background-color: #f89603;
 }
 
 .content {
-  min-height: 400px;
+  min-height: 600px;
   border: 1px dashed #ccc;
   background-color: #f9f9f9;
   padding: 20px;
@@ -108,16 +108,16 @@ width:100%;
 }
 .blog-title {
     font-family: 'Arial', sans-serif;
-    font-size: 48px;
-    color: #007bff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 55px;
+    color: #08ec1b;
+    text-shadow: 2px 2px 4px rgba(241, 20, 20, 0.2);
     margin: 20px 0;
     letter-spacing: 2px;
     text-transform: uppercase;
   
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(48, 2, 2, 0.1);
 }
 
 @media screen and (max-width: 768px) {

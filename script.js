@@ -18,8 +18,6 @@ function drop(event) {
     const paragraph = document.createElement('p');
     paragraph.textContent = content;
     blogContent.appendChild(paragraph);
-
-    // Display the new content in the "New Blog" section
     const newParagraph = document.createElement('p');
     newParagraph.textContent = content;
     newBlogContent.appendChild(newParagraph);
